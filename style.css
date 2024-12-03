@@ -41,17 +41,14 @@ img{
     display: block;
     width: 100%;
 }
-.hover-img {
-    display: none;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.normal-img:hover{
+.hover-img{
     display: none;
 }
-.hover-img:hover{
+.img-container:hover .hover-img{
     display: block;
+}
+.img-container:hover .normal-img{
+    display: none;
 }
 .discount-container {
     position: absolute;
@@ -61,7 +58,6 @@ img{
 span.discount-red{
     background-color: red;
     color: white;
-    margin-inline: 2px;
 }
 span.sostainable-green{
     background-color: green;
