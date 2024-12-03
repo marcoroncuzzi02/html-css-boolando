@@ -34,12 +34,24 @@ header div.third{
 body div.card{
     width: calc((100% - 30px) / 3);
 }
-div.card div.img-container{   
+body .img-container{   
     position:relative;
 }
 img{
     display: block;
     width: 100%;
+}
+.hover-img {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.normal-img:hover{
+    display: none;
+}
+.hover-img:hover{
+    display: block;
 }
 .discount-container {
     position: absolute;
