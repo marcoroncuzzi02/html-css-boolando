@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+}
+/* header css */
+header{
+    justify-content: space-around;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header div{
+    width: calc(100% / 5);
+}
+header div.first{
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+header div.third{
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/* main css */
+.card-container{
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-inline: 20%;
+    padding-block: 10%;
+}
+body div.card{
+    width: calc((100% - 30px) / 3);
+}
+div.card div.img-container{   
+    position:relative;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.discount-container {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+span.discount-red{
+    background-color: red;
+    color: white;
+    margin-inline: 2px;
+}
+span.sostainable-green{
+    background-color: green;
+    color: white;
+}
+.heart-container{
+    background-color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 0;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.overline{
+    text-decoration: line-through;
+}
